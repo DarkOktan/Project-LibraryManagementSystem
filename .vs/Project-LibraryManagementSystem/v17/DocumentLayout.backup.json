@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{711325D2-9C4B-4FBC-A5B1-41B84594CF68}|Project-LibraryManagementSystem\\Project-LibraryManagementSystem.vcxproj|G:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{711325D2-9C4B-4FBC-A5B1-41B84594CF68}|Project-LibraryManagementSystem\\Project-LibraryManagementSystem.vcxproj|solutionrelative:Project-LibraryManagementSystem\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "G:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\main.cpp",
+              "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\main.cpp",
+              "ToolTip": "G:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\main.cpp",
+              "RelativeToolTip": "Project-LibraryManagementSystem\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-10T10:13:24.1Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
