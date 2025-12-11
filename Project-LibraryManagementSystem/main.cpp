@@ -2,12 +2,28 @@
 //
 
 #include <iostream>
+#include "Library.h"
+
+#include "WindowController.h"
 
 int main()
 {
+    WindowController* wc = new WindowController();
+
+	std::string name;
+	int age;
+
+	while (wc->ActiveWindow)
+	{
+		int input;
 
 
-    std::cin.get();
+
+		/*std::cout << "Press Anything" << std::endl;
+		std::cin >> name >> age;*/
+	}
+
+	delete wc;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
