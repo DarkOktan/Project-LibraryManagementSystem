@@ -1,8 +1,7 @@
 #include "BaseConsoleWindow.h"
 
-BaseConsoleWindow::BaseConsoleWindow()
+BaseConsoleWindow::BaseConsoleWindow(WindowController* controller) : CurrentController(controller)
 {
-
 }
 
 BaseConsoleWindow::~BaseConsoleWindow()

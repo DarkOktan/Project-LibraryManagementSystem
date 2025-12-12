@@ -8,22 +8,17 @@
 
 int main()
 {
-    WindowController* wc = new WindowController();
+    WindowController* wc = new WindowController(0);
 
-	std::string name;
-	int age;
+	int val = wc->InputValueInt(std::cin);
+	std::cout << val << std::endl;
 
-	while (wc->ActiveWindow)
+	/*while (wc->ActiveWindow)
 	{
-		int input;
+		
+	}*/
 
-
-
-		/*std::cout << "Press Anything" << std::endl;
-		std::cin >> name >> age;*/
-	}
-
-	delete wc;
+	//delete wc;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

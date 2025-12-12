@@ -5,7 +5,7 @@
 class W_Main : public BaseConsoleWindow
 {
 public:
-	W_Main();
+	W_Main(WindowController* Controller);
 
 protected:
 	void Show() override;

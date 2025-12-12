@@ -2,16 +2,20 @@
 
 #include <string>
 
+class WindowController;
+
 class BaseConsoleWindow
 {
 public:
-	BaseConsoleWindow();
+	BaseConsoleWindow(WindowController* controller);
 	~BaseConsoleWindow();
 
 public:
 	std::string WindowName;
+	
+	WindowController* CurrentController;
 
-protected:
+public:
 	virtual void Show();
 	virtual void Hide();
 };

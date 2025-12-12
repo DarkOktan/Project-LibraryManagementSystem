@@ -1,2 +1,6 @@
-﻿  main.cpp
+﻿  BaseConsoleWindow.cpp
+  main.cpp
+  WindowController.cpp
+  W_Main.cpp
+  Generating Code...
   Project-LibraryManagementSystem.vcxproj -> G:\Productivity\C++\Project-LibraryManagementSystem\x64\Debug\Project-LibraryManagementSystem.exe
