@@ -13,6 +13,10 @@ void BaseConsoleWindow::Show()
 {
 
 }
+void BaseConsoleWindow::Update()
+{
+
+}
 void BaseConsoleWindow::Hide() 
 {
 

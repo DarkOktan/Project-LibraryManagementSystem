@@ -17,6 +17,7 @@ public:
 
 public:
 	virtual void Show();
+	virtual void Update();
 	virtual void Hide();
 };
 

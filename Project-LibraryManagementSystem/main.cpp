@@ -6,17 +6,28 @@
 
 #include "WindowController.h"
 
+#include <Windows.h>
+
+void HEHE(int a, int b) {
+	std::cout << "HEHE" << std::endl;
+}
+
 int main()
 {
-    WindowController* wc = new WindowController(0);
+    //WindowController* wc = new WindowController(0);
+	bool running = true;
 
-	int val = wc->InputValueInt(std::cin);
-	std::cout << val << std::endl;
-
-	/*while (wc->ActiveWindow)
+	while (running)
 	{
-		
-	}*/
+		if (GetAsyncKeyState(VK_RETURN)) {
+			std::cout << "ENTER PRESSED" << std::endl;
+
+			running = false;
+		}
+
+		/*wc->UpdateWindowBuffer();
+		wc->ClearWindow();*/
+	}
 
 	//delete wc;
 }

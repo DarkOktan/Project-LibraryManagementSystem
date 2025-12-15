@@ -3,6 +3,7 @@
 #include "BaseConsoleWindow.h"
 #include <vector>
 #include <memory>
+#include <functional>
 
 class WindowController
 {
@@ -16,13 +17,12 @@ public:
 	void UpdateWindowBuffer();
 	void ClearWindow();
 
-	int InputValueInt(std::istream& in);
-	std::string InputValueString(std::istream& in);
-
-	void PrintHEHE();
+	int InputValueInt(std::istream& in, std::function<void(int)> callback);
+	std::string InputValueString(std::istream& in, std::function<void(std::string)> callback);
 
 private:
 	int CurrentActiveWindowIndex;
+	BaseConsoleWindow* CurrentActiveWindow;
 
 public:
 	bool ActiveWindow;

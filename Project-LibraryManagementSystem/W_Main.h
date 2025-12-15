@@ -10,4 +10,6 @@ public:
 protected:
 	void Show() override;
 	void Hide() override;
+
+	void SelectMenus(int i);
 };
