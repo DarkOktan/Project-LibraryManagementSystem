@@ -1,0 +1,10 @@
+1. Home Page
+1.1 Login Page
+1.2 Register Page
+2. Main Menu
+3. Library
+3.1 Main Library
+3.1.1 List Book Borrowed By Users (if Borrowed something)
+3.1.2 Main Menus
+3.2 List Library
+3.3 Book Borrowing Menu -> Back to Main Library

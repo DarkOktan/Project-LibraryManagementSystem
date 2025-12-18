@@ -25,5 +25,5 @@ private:
 	BaseConsoleWindow* CurrentActiveWindow;
 
 public:
-	bool ActiveWindow;
+	bool bIsRunning;
 };

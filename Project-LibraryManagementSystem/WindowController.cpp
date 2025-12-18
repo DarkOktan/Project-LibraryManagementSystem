@@ -2,15 +2,17 @@
 
 #include "WindowController.h"
 
+#include "W_HomePage.h"
 #include "W_Main.h"
-#include "W_Library.h"
+#include "W_Library_Main.h"
 
 WindowController::WindowController(int defaultActiveIndex)
 {
-	ActiveWindow = true;
+	bIsRunning = true;
 
+	Windows.push_back(std::make_unique<W_HomePage>(this));
 	Windows.push_back(std::make_unique<W_Main>(this));
-	Windows.push_back(std::make_unique<W_Library>(this));
+	Windows.push_back(std::make_unique<W_Library_Main>(this));
 
 	ActivateWindow(defaultActiveIndex);
 }
@@ -22,6 +24,8 @@ WindowController::~WindowController()
 
 void WindowController::ActivateWindow(int windowIndex)
 {
+	ClearWindow();
+
 	for (int i = 0; i < Windows.size(); i++)
 	{
 		if (i == windowIndex) 

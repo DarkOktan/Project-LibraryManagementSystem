@@ -16,6 +16,9 @@
     <Filter Include="Source Files\Window">
       <UniqueIdentifier>{d7bc414e-504d-4e55-aac7-a963f5db655c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Users">
+      <UniqueIdentifier>{ec7dc241-e948-4cac-ac91-b2e1df5f9fcd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -33,7 +36,10 @@
     <ClCompile Include="WindowController.cpp">
       <Filter>Source Files\Window</Filter>
     </ClCompile>
-    <ClCompile Include="W_Library.cpp">
+    <ClCompile Include="W_Library_Main.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="W_HomePage.cpp">
       <Filter>Source Files\Window</Filter>
     </ClCompile>
   </ItemGroup>
@@ -50,7 +56,10 @@
     <ClInclude Include="WindowController.h">
       <Filter>Source Files\Window</Filter>
     </ClInclude>
-    <ClInclude Include="W_Library.h">
+    <ClInclude Include="W_Library_Main.h">
+      <Filter>Source Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="W_HomePage.h">
       <Filter>Source Files\Window</Filter>
     </ClInclude>
   </ItemGroup>

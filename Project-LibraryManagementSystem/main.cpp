@@ -14,22 +14,14 @@ void HEHE(int a, int b) {
 
 int main()
 {
-    //WindowController* wc = new WindowController(0);
-	bool running = true;
+    WindowController* wc = new WindowController(0);
 
-	while (running)
+	while (wc->bIsRunning)
 	{
-		if (GetAsyncKeyState(VK_RETURN)) {
-			std::cout << "ENTER PRESSED" << std::endl;
-
-			running = false;
-		}
-
-		/*wc->UpdateWindowBuffer();
-		wc->ClearWindow();*/
+		wc->UpdateWindowBuffer();
 	}
 
-	//delete wc;
+	delete wc;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

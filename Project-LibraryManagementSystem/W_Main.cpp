@@ -30,7 +30,7 @@ void W_Main::SelectMenus(int i)
 {
 	if (i == 2) // Quit
 	{
-		CurrentController->ActiveWindow = false;
+		CurrentController->bIsRunning = false;
 		return;
 	}
 
