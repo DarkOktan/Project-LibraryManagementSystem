@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Users">
       <UniqueIdentifier>{ec7dc241-e948-4cac-ac91-b2e1df5f9fcd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{07f9c2e3-ff86-4d91-b4c5-e469d1318eef}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -42,6 +45,12 @@
     <ClCompile Include="W_HomePage.cpp">
       <Filter>Source Files\Window</Filter>
     </ClCompile>
+    <ClCompile Include="UserDataLoader.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveUtils.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseConsoleWindow.h">
@@ -61,6 +70,12 @@
     </ClInclude>
     <ClInclude Include="W_HomePage.h">
       <Filter>Source Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="UsersDataLoader.h">
+      <Filter>Source Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveUtils.h">
+      <Filter>Source Files\Utility</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

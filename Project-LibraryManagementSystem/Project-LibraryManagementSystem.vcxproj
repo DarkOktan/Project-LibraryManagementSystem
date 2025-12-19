@@ -76,6 +76,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Productivity\C++\Project-LibraryManagementSystem\Project-LibraryManagementSystem\Include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -90,6 +91,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Productivity\C++\Project-LibraryManagementSystem\Project-LibraryManagementSystem\Include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -102,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Productivity\C++\Project-LibraryManagementSystem\Project-LibraryManagementSystem\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -116,6 +119,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Productivity\C++\Project-LibraryManagementSystem\Project-LibraryManagementSystem\Include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -126,6 +130,8 @@
     <ClCompile Include="BaseConsoleWindow.cpp" />
     <ClCompile Include="Library.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SaveUtils.cpp" />
+    <ClCompile Include="UserDataLoader.cpp" />
     <ClCompile Include="WindowController.cpp" />
     <ClCompile Include="W_Library_Main.cpp" />
     <ClCompile Include="W_HomePage.cpp" />
@@ -134,6 +140,8 @@
   <ItemGroup>
     <ClInclude Include="BaseConsoleWindow.h" />
     <ClInclude Include="Library.h" />
+    <ClInclude Include="SaveUtils.h" />
+    <ClInclude Include="UsersDataLoader.h" />
     <ClInclude Include="WindowController.h" />
     <ClInclude Include="W_Library_Main.h" />
     <ClInclude Include="W_HomePage.h" />
