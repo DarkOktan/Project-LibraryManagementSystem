@@ -8,20 +8,53 @@
 
 #include <Windows.h>
 
-void HEHE(int a, int b) {
-	std::cout << "HEHE" << std::endl;
-}
+#include "SaveUtils.h"
+#include "Saveable.h"
+
+class SAVECONTAINER : public ISaveable{
+public:
+	int a;
+	int b;
+
+	SAVECONTAINER() {}
+	SAVECONTAINER(int a, int b) : a(a), b(b){}
+	~SAVECONTAINER() {}
+
+	// Inherited via ISaveable
+	json Serialize() const override
+	{
+		std::cout << a << std::endl;
+		std::cout << b << std::endl;
+
+		json j = { {"a", a}, {"b", b} };
+
+		return j;
+	}
+
+	void Deserialize(const json& j) override
+	{
+		j.at("a").get_to(a);
+		j.at("b").get_to(b);
+	}
+};
 
 int main()
 {
-    WindowController* wc = new WindowController(0);
+	SAVECONTAINER s{ 1, 2 };
+
+	std::string file = "Mantap.txt";
+	SaveUtils<SAVECONTAINER>* saved = new SaveUtils<SAVECONTAINER>(file);
+
+	saved->Save(s);
+
+    /*WindowController* wc = new WindowController(0);
 
 	while (wc->bIsRunning)
 	{
 		wc->UpdateWindowBuffer();
 	}
 
-	delete wc;
+	delete wc;*/
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

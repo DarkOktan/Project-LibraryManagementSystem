@@ -77,5 +77,8 @@
     <ClInclude Include="SaveUtils.h">
       <Filter>Source Files\Utility</Filter>
     </ClInclude>
+    <ClInclude Include="Saveable.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

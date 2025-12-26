@@ -140,6 +140,7 @@
   <ItemGroup>
     <ClInclude Include="BaseConsoleWindow.h" />
     <ClInclude Include="Library.h" />
+    <ClInclude Include="Saveable.h" />
     <ClInclude Include="SaveUtils.h" />
     <ClInclude Include="UsersDataLoader.h" />
     <ClInclude Include="WindowController.h" />
