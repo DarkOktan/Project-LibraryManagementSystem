@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{711325D2-9C4B-4FBC-A5B1-41B84594CF68}|Project-LibraryManagementSystem\\Project-LibraryManagementSystem.vcxproj|D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{711325D2-9C4B-4FBC-A5B1-41B84594CF68}|Project-LibraryManagementSystem\\Project-LibraryManagementSystem.vcxproj|solutionrelative:Project-LibraryManagementSystem\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{711325D2-9C4B-4FBC-A5B1-41B84594CF68}|Project-LibraryManagementSystem\\Project-LibraryManagementSystem.vcxproj|D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\SaveUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{711325D2-9C4B-4FBC-A5B1-41B84594CF68}|Project-LibraryManagementSystem\\Project-LibraryManagementSystem.vcxproj|solutionrelative:Project-LibraryManagementSystem\\SaveUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{711325D2-9C4B-4FBC-A5B1-41B84594CF68}|Project-LibraryManagementSystem\\Project-LibraryManagementSystem.vcxproj|D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{711325D2-9C4B-4FBC-A5B1-41B84594CF68}|Project-LibraryManagementSystem\\Project-LibraryManagementSystem.vcxproj|solutionrelative:Project-LibraryManagementSystem\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\Mantap.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project-LibraryManagementSystem\\Mantap.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{711325D2-9C4B-4FBC-A5B1-41B84594CF68}|Project-LibraryManagementSystem\\Project-LibraryManagementSystem.vcxproj|D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\Saveable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -27,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{711325D2-9C4B-4FBC-A5B1-41B84594CF68}|Project-LibraryManagementSystem\\Project-LibraryManagementSystem.vcxproj|solutionrelative:Project-LibraryManagementSystem\\W_HomePage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{711325D2-9C4B-4FBC-A5B1-41B84594CF68}|Project-LibraryManagementSystem\\Project-LibraryManagementSystem.vcxproj|D:\\PRODUCTIVITY\\C\u002B\u002B\\PROJECT-LIBRARYMANAGEMENTSYSTEM\\PROJECT-LIBRARYMANAGEMENTSYSTEM\\INCLUDE\\SINGLE_INCLUDE\\NLOHMANN\\JSON.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{711325D2-9C4B-4FBC-A5B1-41B84594CF68}|Project-LibraryManagementSystem\\Project-LibraryManagementSystem.vcxproj|D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\PROJECT-LIBRARYMANAGEMENTSYSTEM\\INCLUDE\\SINGLE_INCLUDE\\NLOHMANN\\JSON.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{711325D2-9C4B-4FBC-A5B1-41B84594CF68}|Project-LibraryManagementSystem\\Project-LibraryManagementSystem.vcxproj|solutionrelative:PROJECT-LIBRARYMANAGEMENTSYSTEM\\INCLUDE\\SINGLE_INCLUDE\\NLOHMANN\\JSON.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -66,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UsersDataLoader.h",
               "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\UsersDataLoader.h",
               "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\UsersDataLoader.h",
@@ -79,12 +83,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-18T16:45:13.012Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UserDataLoader.cpp",
               "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\UserDataLoader.cpp",
               "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\UserDataLoader.cpp",
@@ -97,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "W_HomePage.cpp",
               "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\W_HomePage.cpp",
               "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\W_HomePage.cpp",
@@ -106,12 +109,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-16T16:30:23.217Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "W_HomePage.h",
               "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\W_HomePage.h",
               "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\W_HomePage.h",
@@ -120,18 +122,17 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-16T16:30:34.429Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\main.cpp",
               "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\main.cpp",
               "ToolTip": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\main.cpp",
               "RelativeToolTip": "Project-LibraryManagementSystem\\main.cpp",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAMwA0AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAApwDQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-10T10:13:24.1Z",
               "IsPinned": true,
@@ -139,28 +140,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "json.hpp",
-              "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\Include\\single_include\\nlohmann\\json.hpp",
-              "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\Include\\single_include\\nlohmann\\json.hpp",
-              "ToolTip": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\Include\\single_include\\nlohmann\\json.hpp",
-              "RelativeToolTip": "Project-LibraryManagementSystem\\Include\\single_include\\nlohmann\\json.hpp",
-              "ViewState": "AgIAAAhTAAAAAAAAAAAowBRTAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-26T07:51:24.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Saveable.h",
-              "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\Saveable.h",
-              "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\Saveable.h",
-              "ToolTip": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\Saveable.h",
-              "RelativeToolTip": "Project-LibraryManagementSystem\\Saveable.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-26T07:26:03.202Z",
+              "Title": "Mantap.txt",
+              "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\Mantap.txt",
+              "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\Mantap.txt",
+              "ToolTip": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\Mantap.txt",
+              "RelativeToolTip": "Project-LibraryManagementSystem\\Mantap.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-26T13:05:07.574Z",
               "EditorCaption": ""
             },
             {
@@ -170,6 +158,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "json.hpp",
+              "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\Include\\single_include\\nlohmann\\json.hpp",
+              "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\Include\\single_include\\nlohmann\\json.hpp",
+              "ToolTip": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\Include\\single_include\\nlohmann\\json.hpp",
+              "RelativeToolTip": "Project-LibraryManagementSystem\\Include\\single_include\\nlohmann\\json.hpp",
+              "ViewState": "AgIAAAhTAAAAAAAAAAAowBRTAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-26T07:51:24.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Saveable.h",
+              "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\Saveable.h",
+              "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\Saveable.h",
+              "ToolTip": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\Saveable.h",
+              "RelativeToolTip": "Project-LibraryManagementSystem\\Saveable.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-26T07:26:03.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SaveUtils.cpp",
               "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\SaveUtils.cpp",
               "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\SaveUtils.cpp",
@@ -177,25 +189,24 @@
               "RelativeToolTip": "Project-LibraryManagementSystem\\SaveUtils.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-18T18:12:56.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T18:12:56.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SaveUtils.h",
               "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\SaveUtils.h",
               "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\SaveUtils.h",
               "ToolTip": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\SaveUtils.h",
               "RelativeToolTip": "Project-LibraryManagementSystem\\SaveUtils.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwDkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-18T18:12:49.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "BaseConsoleWindow.cpp",
               "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\BaseConsoleWindow.cpp",
               "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\BaseConsoleWindow.cpp",
@@ -203,12 +214,11 @@
               "RelativeToolTip": "Project-LibraryManagementSystem\\BaseConsoleWindow.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-11T14:55:08.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T14:55:08.666Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "W_Main.cpp",
               "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\W_Main.cpp",
               "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\W_Main.cpp",
@@ -220,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Library.h",
               "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\Library.h",
               "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\Library.h",
@@ -232,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "BaseConsoleWindow.h",
               "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\BaseConsoleWindow.h",
               "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\BaseConsoleWindow.h",
@@ -244,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "W_Main.h",
               "DocumentMoniker": "D:\\Productivity\\C\u002B\u002B\\Project-LibraryManagementSystem\\Project-LibraryManagementSystem\\W_Main.h",
               "RelativeDocumentMoniker": "Project-LibraryManagementSystem\\W_Main.h",
@@ -252,8 +262,7 @@
               "RelativeToolTip": "Project-LibraryManagementSystem\\W_Main.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-11T14:59:21.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T14:59:21.378Z"
             }
           ]
         }

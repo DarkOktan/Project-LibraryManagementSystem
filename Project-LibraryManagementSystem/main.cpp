@@ -20,6 +20,10 @@ public:
 	SAVECONTAINER(int a, int b) : a(a), b(b){}
 	~SAVECONTAINER() {}
 
+	void Print() {
+		std::cout << "A : " << a << "B : " << b << std::endl;
+	}
+
 	// Inherited via ISaveable
 	json Serialize() const override
 	{
@@ -45,7 +49,8 @@ int main()
 	std::string file = "Mantap.txt";
 	SaveUtils<SAVECONTAINER>* saved = new SaveUtils<SAVECONTAINER>(file);
 
-	saved->Save(s);
+	s.Deserialize(saved->Load());
+	s.Print();
 
     /*WindowController* wc = new WindowController(0);
 
